@@ -1,0 +1,8 @@
+matrix:
+    homeserver: "https://homeserver.tld"
+    token: "bot_access_token"
+    user_id: "@dialogflow_bot:homeserver.tld"
+    owner_id: "@owner:homeserver.tld"
+
+dialogflow:
+    project: "dialogflow_agent_name"
