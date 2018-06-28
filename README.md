@@ -6,6 +6,7 @@ Usage:
 $ git clone https://gitlab.com/vurpo/matrix-dialogflow
 $ cd matrix-dialogflow
 $ virtualenv venv --python=python3
+$ . venv/bin/activate
 $ pip install -r requirements.txt
 $ cp config.yml.sample config.yml
 ```
