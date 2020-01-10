@@ -73,5 +73,5 @@ if __name__ == "__main__":
     cfg = yaml.load(ymlfile)
 
   bot = Bot(cfg['matrix']['homeserver'], cfg['matrix']['user_id'], cfg['matrix'][
-            'token'], cfg['matrix']['owner_id'], cfg['dialogflow']['project'])
+            'password'], cfg['matrix']['owner_id'], cfg['dialogflow']['project'])
   bot.run()

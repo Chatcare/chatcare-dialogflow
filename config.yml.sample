@@ -1,6 +1,6 @@
 matrix:
     homeserver: "https://homeserver.tld"
-    token: "bot_access_token"
+    password: "bot_password"
     user_id: "@dialogflow_bot:homeserver.tld"
     owner_id: "@owner:homeserver.tld"
 
